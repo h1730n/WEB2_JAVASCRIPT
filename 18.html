@@ -1,0 +1,55 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>WEB1 - html</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <h1><a href="index.html">WEB</a></h1>
+                <input id="night_day" type="button" value="night" onclick="
+                var target = document. querySelector ('body');
+                if (document. querySelector ('#night_day').value === 'night'){
+                    target.style.backgroundColor = 'black';
+                    target.style.color = 'white' ;
+                    document. querySelector ('#night_day'). value = 'day';
+                } else {
+                    target.style.backgroundColor = 'white';
+                    target.style.color = 'black' ;
+                    document. querySelector ('#night_day'). value = 'night';
+                }
+                ">
+                <ol>
+                    <li><a href="1.html">HTML</a></li>
+                    <li><a href="2.html">CSS</a></li>
+                    <li><a href="3.html">JavaScript</a></li>
+                </ol>
+                <div style="padding-left: 12px">
+                <h2>JavaScript</h2>
+                <p>
+                    <a href="https://www.w3.org/TR/html5/"
+                    target="_blank" title="html5 specification">
+                    JavaScript (/ˈdʒɑːvəskrɪpt/)</a>,
+                    often abbreviated as JS, 
+                    is a programming language and core technology of the Web, 
+                    alongside HTML and CSS. 
+                    99% of websites use JavaScript on the client side 
+                    for webpage behavior.
+                </p>
+                <input type="button" value="night" onclick="
+                var target = document. querySelector ('body');
+                if (this.value === 'night'){
+                    target.style.backgroundColor = 'black';
+                    target.style.color = 'white' ;
+                    this. value = 'day';
+                } else {
+                    target.style.backgroundColor = 'white';
+                    target.style.color = 'black' ;
+                    this. value = 'night';
+                }
+                ">
+                    <img src="./javascript.jpg" style="width:20%"></img>
+                </div>
+            </div>
+        </body>
+    </html>
